@@ -4,8 +4,3 @@ for(var i = 0; i < fruits.length; i++){
     var total = i + 1;
 }
 console.log(total);
-
-// creat arry days of week skip thur
-
-search missed spelled
-12 months
