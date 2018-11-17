@@ -1,10 +1,3 @@
-var phoneStore = {
-    company: "Apple",
-    phone: "iPhone X",
-    cost: 999.999,
-    monthlySales: 500
-};
-
 var fruits = {
   type: "Apple", // key: value pair
   category: "Macintosh",
