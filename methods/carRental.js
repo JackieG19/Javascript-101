@@ -5,11 +5,11 @@ var carRental = {
     pricePerDay: 56,
     carsRented: 0,
     daysForRent: 14,
-    OneEachLot: ["Lot 1", "Lot 2", "Lot 3", "Lot 4"],
+    oneEachLot: ["Lot 1", "Lot 2", "Lot 3", "Lot 4"],
     type: "Economy",
     
     totalLotsCarIsIn: function() {
-        return this.OneEachLot.length;
+        return this.oneEachLot.length;
     },
 
      carsAvailable: function() {
