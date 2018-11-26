@@ -45,7 +45,7 @@ var hotel = {
     
     addToAvailableRooms: function(){
         // add a room in the roomNumAvailable array
-         return this.roomNumAvailable();
+         return this.roomNumAvailable;
     }
 };
 
