@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <title>This will appear in your browser tag</title>
+  <style>
+    #providence {
+      color: blueviolet;
+    }
+    
+    #info {
+      color: green;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1 id="hotelname">Omni Hotel</h1>
+  <button onclick="myFunction()">City</button>
+  <h6>1 W Exchange St, Providence, RI 02903</h6>
+
+  <h2 id="info">About this hotel</h2>
+  <p>A mile from Providence Children's Museum, this upscale hotel off I-95 is connected by a covered walkway to the Rhode Island Convention Center.
+     
+  It's 5 miles from the Roger Williams Park Zoo.
+
+  <ul>
+    <li>Paid Wifi</li>
+    <li>Pet Friendly</li>
+    <li>Fitness Center</li>
+    <li>Restaurant</li>
+  </ul>
+  </p>
+
+
+<p>To find out more information, <a href="https://www.omnihotels.com/hotels/providence" target="_blank">click here</a></p>
+
+</body>
+
+<script>
+  function myFunction() {
+    document.getElementById("hotelname").innerHTML = "Omni Providence Hotel";
+  }
+</script>
+</html>

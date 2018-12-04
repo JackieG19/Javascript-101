@@ -6,4 +6,8 @@
 var carTypeToRent = ["Economcy", "Compact", "Full Size", "Premium", "Luxury"];
 var carsRentedOut = [];
 
+<<<<<<< HEAD
 carsRentedOut = carsRentedOut.concat(carTypeToRent.splice(carTypeToRent.indexOf(carTypeToRent), 1));
+=======
+carsRentedOut = carsRentedOut.concat(carTypeToRent.splice(carTypeToRent.indexOf(carTypeToRent), 1));
+>>>>>>> 909a7e0dbce68b530d5ac30e5777929f727e61ef
