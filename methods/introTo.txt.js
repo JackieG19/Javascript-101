@@ -1,3 +1,5 @@
+// Intro to objects methods and function
+
 console.log("Welcome to the program.");
 // code that is written within the main/global scope 
 // of a program is excuted automatically
